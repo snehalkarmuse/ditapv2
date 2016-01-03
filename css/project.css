@@ -1,0 +1,127 @@
+.headerText{
+    margin-left: 5%;
+}
+ul li{
+   list-style: none;
+}
+
+.link{
+    color:#000000;
+}
+.projectList{
+    width:100%;
+    /*border-top: 1px solid grey;*/
+   }
+
+.projectGrid{
+    width:90%;
+}
+.projectGridSetting{
+    margin:0 2% 2% 0;
+    width:44%;
+    height:14%;
+    /*padding:2%;*/
+}
+.projectLeft{
+    float:left;
+}
+.projectRight{
+    float:right;
+}
+li.q{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin:1%;
+    padding:3%;
+}
+.imageFloat{
+    float:right;
+}
+.heading{
+    font-size: 1em;
+
+}
+/*.overlayProject{*/
+    /*display: block;*/
+    /*width:771px;*/
+    /*left:0;*/
+    /*top:0;*/
+    /*height:20%;*/
+    /*z-index:100;*/
+    /*padding:3%;*/
+    /*border: 1px solid grey;*/
+    /*border-radius: 5px;*/
+    /*pointer-events: none;*/
+    /*margin-left:5%;*/
+    /*box-sizing: border-box;*/
+    /*background: linear-gradient(180deg, #fff4bd, #ffffff);*/
+
+/*}*/
+.projectImage{
+    display: block;
+    margin-left:10%;
+    /*z-index:100;*/
+}
+/*.close{*/
+    /*cursor: pointer;*/
+    /*float:right;*/
+    /*top:0;*/
+    /*right:0;*/
+    /*margin-bottom:2%;*/
+/*}*/
+
+.back{
+    background-color:#ff3300 ;
+    font-weight: bold;
+    padding:1% 2%;
+    color:white;
+}
+.overlayBox {
+    border:5px solid #09F;
+    position:absolute;
+    display:none;
+    width:771px;
+    /*height:1100px;*/
+    background:#fff;
+    padding-left:5%;
+
+}
+.closeLink{
+    float:right;
+    padding:1% 2% 5% 0;
+}
+.overlayBox img{
+    padding:0.5%;
+    margin-top: 5%;
+}
+.ulHeader{
+    font-size:1em;
+    margin-left:-15%;
+    }
+.ulHeader li{
+    display:inline-block;
+    padding:1% 5%;
+    background-color:darkorange;
+    color:#ffffff;
+    cursor: pointer;
+}
+.plasticPhotos img{
+    width:40%;
+}
+@media screen and (max-width: 720px) {
+    .projectList{
+        margin:0;
+        padding:0;
+    }
+    .projectGrid li{
+
+    }
+    .projectGridSetting{
+        margin:0;
+
+    }
+
+}

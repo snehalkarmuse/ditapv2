@@ -1,0 +1,114 @@
+.imageDeco{
+    margin:1% 20% 0 0;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.imageDeco1{
+    margin-left:20%;
+}
+.infrastructureGrid{
+    display:table;
+    border-top: 1px solid grey;
+    width:100%;
+}
+.gridSetting{
+    float:left;
+    padding:1% 0 0 1%;
+    margin:1%;
+}
+.infrastructureLeft{
+    width: 20%;
+    float:left;
+}
+.infrastructureRight{
+    width:15%;
+    padding-left: 0;
+    margin-right: 7%;
+    margin-top:-58%;
+    float:right;
+}
+.infrastructureCenter{
+    width:50%;
+    border-left:1px solid grey;
+    border-right:1px solid grey;
+    float:right;
+    margin-left:0;
+    margin-right:22%;
+}
+
+.infrastructureGrid ul {
+    list-style: none;
+}
+.gridImage{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.mobileGrid{
+    display:none;
+}
+.mobileGallery{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .infrastructureGrid{
+        display:none;
+    }
+
+    .active{
+        display:block;
+    }
+    .oldActive{
+        display:none;
+    }
+    .mobileGrid{
+        width:100%;
+        display:block;
+
+    }
+    .leftImages{
+        width:25%;
+        float:left;
+        margin:0;
+
+    }
+    .mobileContent{
+        width:75%;
+        float:right;
+
+    }
+    ul li{
+        list-style:none;
+    }
+   .leftImages ul li{
+        padding-bottom:10%;
+    }
+   .mobileContent ul li{
+
+   }
+    .imageDeco{
+        margin:1% 0 0 0;
+        border:1px solid grey;
+        border-radius: 5px;
+        width:100%;
+    }
+
+    .mobileGallery{
+        width:100%;
+        height:100px;
+        margin:2% auto;
+        padding:3% 0 0 0;
+        border: 1px solid grey;
+        border-radius: 3px;
+    }
+    .slide{
+        width:100%;
+        height:100%;
+    }
+    footer{
+        bottom:0;
+    }
+}

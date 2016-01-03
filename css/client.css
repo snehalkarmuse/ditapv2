@@ -1,0 +1,29 @@
+.businessContent{
+    float:left;
+    width:28%;
+    padding:0.5% 1% 0.5% 1%;
+    margin:0 1% 0 1%;
+}
+.clientImage{
+   border:1px solid grey;
+    border-radius: 10px;
+}
+.mobileImage{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .businessContent{
+        width:100%;
+
+    }
+    .screenImages{
+        display: none;
+    }
+   .mobileImage{
+       display:block;
+   }
+}
